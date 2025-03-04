@@ -1,3 +1,4 @@
+import TotalVisits from '../commons/total-visits';
 import UserCard from '../commons/user-card';
 import Button from '../ui/button';
 import TextInput from '../ui/text-input';
@@ -25,7 +26,7 @@ const Hero = () => {
 				<div className="relative">
 					<UserCard />
 					<div className="absolute -bottom-[7%] -right-[45%]">
-						{/* <TotalVisits/ */}
+						<TotalVisits />
 					</div>
 				</div>
 			</div>
